@@ -1,0 +1,13 @@
+.DS_Store
+
+
+.idea
+
+.cache/
+.sass-cache/
+dist/
+node_modules
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

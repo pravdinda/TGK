@@ -1,0 +1,25 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  padding: 45px 50px 0;
+}
+
+.tab {
+  margin-left:24px;
+  color: #A1A6B3;
+  font-size: 17px;
+  line-height: 21px;
+  text-decoration: none;
+  padding-bottom: 22px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+.tab:first-child {
+  margin-left: 0;
+}
+
+
+.current, .tab:hover {
+  color: #3D424D;
+  border-color: #FF7439;
+}

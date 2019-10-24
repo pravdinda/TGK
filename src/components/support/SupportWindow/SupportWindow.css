@@ -1,0 +1,155 @@
+@import "styles/animations.css";
+
+.overlay {
+  background: rgba(46, 66, 93);
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+  transition: opacity 0.2s linear;
+}
+
+.window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 560px;
+  background: white;
+  box-sizing: border-box;
+  z-index: 300;
+  padding: 34px 0 40px;
+  transition: transform 0.2s linear;
+}
+
+.title {
+  color: #1C5B8E;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 0 40px 0 93px;
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #B8BECC;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #0081FF;
+}
+
+.hidden .window {
+  transform: translateX(560px);
+}
+
+.hidden .overlay {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.content {
+  margin-top: 35px;
+  position: relative;
+  min-height: calc(100vh - 94px);
+}
+
+.requests {
+  padding: 12px 40px;
+  overflow: auto;
+  max-height: calc(100vh - 94px);
+  box-sizing: border-box;
+}
+
+.request {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FAFAFC;
+  border-radius: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: relative;
+}
+
+.request:not(:first-child) {
+  margin-top: 10px;
+}
+
+.request:hover {
+  background: #3F6DF0;
+ 
+}
+
+.request:hover .requestDate,
+.request:hover .requestTitle,
+.request:hover .requestText {
+  color: white;
+}
+
+.request svg {
+  transform-origin: 50% 50%;
+  transform: scaleX(-1)
+}
+
+.requestInner {
+  flex-basis: 100%;
+}
+
+.requestDate {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #A1A6B2;
+}
+
+.requestTitle {
+  font-weight: 600;
+  font-size: 15px;
+  color: #3D424C;
+  margin: 10px 0;
+}
+
+.requestText {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #8A8E99;
+}
+
+.requestNewMessages {
+  width: 6px;
+  height: 6px;
+  background: #FF7439;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 50%;
+}
+
+.addRequestButton {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+}
+
+.spinner {
+  text-align: center;
+  margin: 80px auto 0;
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  display: flex
+}
+
+.empty {
+  text-align: center;
+}

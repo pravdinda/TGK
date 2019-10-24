@@ -1,0 +1,110 @@
+@import "styles/index.css";
+@import "styles/animations.css";
+
+.spinner {
+  width: 100vw;
+  height: 100vh;
+}
+
+.spinner svg {
+  width: 70px;
+  height: 70px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  color: #B8BECC;
+  margin-left: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -35px;
+  margin-top: -35px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+  background: rgba(46, 66, 93);
+  opacity: 0.1;
+  transition: opacity 0.2s linear;
+}
+
+.window {
+  width: 637px;
+  position: fixed;
+  background: white;
+  padding-top: 94px;
+  box-sizing: border-box;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 301;
+  transition: transform 0.2s linear;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 33px;
+  color: #3D424D;
+  height: 66px;
+  border-bottom: 1px solid #E1E4EB;
+  padding: 0 30px 23px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  color: #737780;
+  padding: 0 30px;
+  padding-top: 23px;
+  overflow: auto;
+  box-sizing: border-box;
+  height: calc(100vh - 207px);
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #B8BECC;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #0081FF;
+}
+
+.hidden {
+
+}
+
+.hidden .overlay {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.hidden .window {
+  transform: translateX(637px);
+  
+}
+
+.popupTitle  {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+  padding: 0 0 26px;
+}
+
+.popupTitle svg {
+  margin-right: 24px;
+}
+
+.popupTitle span {
+  font-weight: 500;
+}

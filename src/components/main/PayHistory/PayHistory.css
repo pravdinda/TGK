@@ -1,0 +1,158 @@
+.overlay {
+  background: rgba(46, 66, 93);
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 300;
+  transition: opacity 0.2s linear;
+}
+
+.window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 660px;
+  background: white;
+  box-sizing: border-box;
+  z-index: 300;
+  padding: 110px 0 40px;
+  transition: transform 0.2s linear;
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #B8BECC;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #0081FF;
+}
+
+.hidden .window {
+  transform: translateX(660px);
+}
+
+.hidden .overlay {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+  color: #3D424C;
+  padding: 0 40px;
+  height: 18px;
+  box-sizing: border-box;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #737780;
+  padding: 0 40px;
+  margin-top: 28px;
+  height: 40px;
+}
+
+.selects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.year {
+  width: 105px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+}
+
+.month {
+  width: 146px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.line {
+  height: 2px;
+  border-radius: 1px;
+  background: #1477F8;
+  width: 6px;
+  margin: 0 32px;
+}
+
+.form {
+  padding: 0 40px;
+  height: 200px;
+  box-shadow: none;
+  margin-top: 12px;
+}
+
+.result {}
+
+.list {
+  padding: 0 40px 20px;
+  overflow: auto;
+  max-height: calc(100vh - 484px);
+}
+
+.date {
+  width: 115px;
+}
+.sum {
+  width: 124px
+}
+
+.source {
+  width: 204px;
+}
+
+.check a {
+  color: #A1A6B2;
+  text-decoration: underline;
+}
+
+.check a:hover {
+  color: #0081FF;
+}
+
+.head {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8A8E99;
+  display: flex;
+  padding: 8px 61px;
+  height: 32px;
+  box-sizing: border-box;
+}
+
+.row {
+  font-weight: 600;
+  font-size: 13px;
+  background: #FAFBFC;
+  border-radius: 20px;
+  color: #3D424D;
+  display: flex;
+  padding: 17px 21px; 
+  margin-top: 10px;
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  padding: 24px 0;
+  color: #A1A6B2;
+}
+
+.org {
+  width: 100%;
+}

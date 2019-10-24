@@ -1,0 +1,22 @@
+@import "styles/vars.css";
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.title  {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+  padding: 120px 0 80px;
+}
+
+.title svg {
+  margin-right: 24px;
+}
+
+.title span {
+  font-weight: 500;
+}

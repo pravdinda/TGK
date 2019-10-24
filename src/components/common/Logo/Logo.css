@@ -1,0 +1,28 @@
+@import "styles/vars.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.icon {
+  width: 100px;
+  margin-top: -3px;
+}
+
+.text {
+  color: #005B92;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.line {
+  height: 75px;
+  width: 1px;
+  background: #A1A6B3;
+  margin-left: 25px;
+  margin-right: 31px;
+}

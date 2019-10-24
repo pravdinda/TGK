@@ -1,0 +1,14 @@
+@import 'reset-css';
+@import "./vars.css";
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,300,300i,400,400i,500,500i,600,600i,700,700i&subset=cyrillic');
+
+
+:global(html) {
+  font-size: 16px;
+}
+
+:global(body) {
+  background: #fafafc;
+  color: #3D424D;
+  font-family: 'Montserrat', sans-serif;
+}

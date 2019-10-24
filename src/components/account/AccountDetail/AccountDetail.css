@@ -1,0 +1,47 @@
+@import "styles/animations.css";
+
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: stretch;
+  margin: 60px auto;
+}
+
+.form form {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 1px solid #EDF0F5;
+  height: 100%;
+}
+
+.content {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: white;
+  flex: 100%;
+  box-sizing: border-box;
+}
+
+.address {
+  background: #FAFBFC;
+  border-radius: 10px;
+  padding: 17px 20px;
+  font-size: 15px;
+  line-height: 1.2em;
+  color: #3D424D;
+}
+
+.addressLabel {
+  color: #A1A6B3;
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  display: flex;
+  margin: 100px auto;
+}

@@ -1,0 +1,178 @@
+@import "styles/animations.css";
+
+.container {
+
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 360px;
+}
+
+.empty svg {
+
+}
+
+.empty p {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 24px;
+  color: #737780;
+  margin-left: 30px;
+}
+
+.content {
+  position: relative;
+}
+
+.arrows {
+  position: absolute;
+  right: 50px;
+  top: -46px;
+}
+
+.arrows svg {
+  border: 1px solid #E1E4EB;
+  border-radius: 50%;
+  padding: 13px 15px;
+  cursor: pointer;
+  color: #3D424D;
+  transform-origin: 50% 50%;
+}
+
+.arrows svg:hover {
+  color: #0081FF
+}
+
+.leftArrow {
+  margin-right: 20px;
+}
+
+.rightArrow {
+  transform: scaleX(-1);
+}
+
+.widgets {
+  padding: 32px 50px;
+  min-height: 345px;
+  overflow: hidden;
+  position: relative;
+}
+
+.widget:not(:first-child) {
+  margin-left: 20px;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  display: flex;
+  margin: 100px auto;
+}
+
+.list {
+  display: flex;
+  position: absolute;
+  top: 32px;
+  left: 50px;
+  transition: transform .2s;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 400;
+  background: rgba(46, 66, 93);
+  opacity: 0.1;
+}
+
+.popup {
+  position: fixed;
+  background: white;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.01);
+  border-radius: 20px;
+  z-index: 401;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 380px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.popupTitle {
+  display: flex;
+  align-items: center;
+}
+
+.popupTitle svg {
+  margin-right: 19px;
+}
+
+.popupTitle span {
+  font-weight: bold;
+  font-size: 19px;
+  color: #3D424D;
+}
+
+.popupText {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #737780;
+  margin: 25px 0 35px;
+}
+
+.popupText b {
+  font-weight: bold;
+}
+
+.popupButtons {
+  display: flex;
+  align-items: center;
+}
+
+.popupButtons button {
+  flex: 1;
+}
+
+.popupButtons button:not(:first-child) {
+  margin-left: 20px;
+}
+
+
+.message {
+  display: flex;
+  align-items: center;
+  max-width: 620px;
+  box-sizing: border-box;
+  background: #F2F2F7;
+  border-radius: 20px;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.message svg {
+  flex-basis: 20px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin-right: 17px;
+  width: 20px;
+  height: 20px;
+}
+
+.message p {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3D424C;
+  flex-basis: 100%;
+}
+

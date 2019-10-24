@@ -1,0 +1,39 @@
+.container {
+  color: #3D424D;
+  padding: 48px 50px;
+  border: 1px solid #E1E4EB;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: #3CC300;
+  margin-right: 18px;
+  flex-shrink: 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 25px;
+  
+  width: 100%;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 20px;
+} 
+
+.text a {
+  color:  #A1A6B3;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}

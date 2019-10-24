@@ -1,0 +1,124 @@
+.container {
+  
+  box-sizing: border-box;
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.info {
+  flex-basis: 100%;
+  text-decoration: none;
+  padding: 34px 40px;
+}
+
+.number {
+  font-weight: bold;
+  font-size: 15px;
+  color: #3D424D;
+  display: flex;
+  align-items: center;
+}
+
+.archive {
+  font-weight: 600;
+  font-size: 11px;
+  color: #1C5B8E;
+  background: #F5F5F7;
+  border-radius: 7px;
+  margin-left: 12px;
+  padding: 7px;
+}
+
+
+
+.name {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #3D424D;
+}
+
+.info:hover > div {
+  color: #0081FF;
+}
+
+.address {
+  font-weight: 500;
+  font-size: 13px;
+  color: #737780;
+  margin-top: 10px;
+}
+
+.icon {
+  color: #B8BECC;
+  cursor: pointer;
+  margin-right: 40px;
+  flex-basis: 17px;
+  flex-shrink: 0;
+}
+
+.icon:hover {
+  color: #0081FF;
+}
+
+.active {
+  background: #1E6299;
+  
+}
+
+.active .name, .active .address, .active .icon:hover, .active .name a:hover {
+  color: white;
+}
+
+.activeText {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  position: absolute;
+  width: 50px;
+  height: 100%;
+  top: 0;
+  text-align: center;
+  color: #FAFAFC;
+  background: #1E6299;
+  left: -50px;
+  border-radius: 0 20px 20px 0;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.activeText span {
+  border-left: 1px solid #78A1C2;
+  padding-left: 14px;
+}
+
+.menu {
+  background: #F2F2F7;
+  border-radius: 14px 14px 14px 0;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #A1A6B3;
+  width: 140px;
+  position: absolute;
+  padding: 14px 19px;
+  box-sizing: border-box;
+  right: -90px;
+  top: 50%;
+  transform: translateY(-67px);
+}
+
+.menu div {
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.menu div:first-child {
+  margin-top: 0;
+}
+
+.menu div:hover {
+  color: #0081FF;
+}

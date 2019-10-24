@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: black;
+  background: #F0F2F7;
+  padding: 16px 16px;
+  border-radius: 18px;
+}
+
+.info {
+  margin: 0 18px 0 17px;
+  white-space: pre-line;
+  text-decoration: none;
+}
+
+.profile {
+  font-size: 13px;
+  font-weight: 500;
+  color: #A1A6B2;
+  line-height: 16px;
+  
+}
+
+.info:hover > .profile {
+  color: #0081FF;
+}
+
+.info:hover > .name {
+  color: #0081FF;
+}
+
+
+.name {
+  color: #3D424C;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.logout {
+  color: #B8BECC;
+  cursor: pointer;
+}
+
+.logout:hover {
+  color: #0081FF;
+}

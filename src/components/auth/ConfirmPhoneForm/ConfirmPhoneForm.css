@@ -1,0 +1,12 @@
+.resend {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #A1A6B3;
+  margin: -18px 0 14px;
+}
+
+.resend span {
+  text-decoration: underline;
+  cursor: pointer;
+}

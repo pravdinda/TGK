@@ -1,0 +1,214 @@
+@import "styles/animations.css";
+
+.container {
+  display: flex;
+  width: 930px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.left {
+  position: relative;
+  width: 380px;
+}
+.right {
+  position: relative;
+  width: 530px;
+}
+
+.left:not(:last-child) {
+  margin-right: 20px;
+}
+
+.form:not(:first-child) {
+  margin-top: 20px;
+}
+
+.value {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D424D;
+  margin-top: 7px;
+}
+
+.form > div:first-child {
+  margin-bottom: 28px;
+}
+
+.widget:not(:first-child) {
+  margin-top: 20px;
+}
+
+.previosDevices {
+  font-weight: 600;
+  font-size: 15px;
+  color: #A1A6B2;
+  margin-top: 25px;
+}
+.previosDevices span {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.previosDevices span:hover {
+  color: #0081FF;
+}
+
+.previosDevices svg {
+  margin-left: 20px;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #737780;
+  border: 1px solid #E1E4EB;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.01);
+  border-radius: 20px;
+  padding: 25px 30px;
+  margin-top: 20px;
+}
+
+.info a {
+  color: #A1A6B2;
+  text-decoration: underline;
+}
+
+.info a:hover {
+  color: #0081FF;
+}
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  display: flex;
+  margin: 100px auto;
+}
+
+.empty {
+  font-size: 18px;
+  padding: 24px 0;
+  color: #A1A6B2;
+}
+
+.objects {
+  position: relative;
+  height: 292px;
+  overflow: hidden;
+}
+
+.objects > div {
+  display: flex;
+  align-items: flex-start;
+  transition: transform .2s;
+}
+
+
+.arrows {
+  position: absolute;
+  right: 52px;
+  top: 46px;
+}
+
+.arrows svg {
+  border: 1px solid #E1E4EB;
+  border-radius: 50%;
+  padding: 13px 15px;
+  cursor: pointer;
+  color: #3D424D;
+  transform-origin: 50% 50%;
+}
+
+.arrows svg:hover {
+  color: #0081FF
+}
+
+.leftArrow {
+  margin-right: 20px;
+}
+
+.rightArrow {
+  transform: scaleX(-1);
+}
+
+.notifications {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #737780;
+  margin-bottom: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-height: 50px;
+}
+
+.notifications > div:not(:first-child) {
+  margin-top: 20px;
+}
+.notifications a {
+  color: inherit;
+  text-decoration: underline;
+}
+.notifications a:hover {
+  color: #0081FF;
+}
+
+.notificationsBottom {
+  display: flex;
+  height: 68px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: #A1A6B2;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-top: 1px solid #E1E4EB;
+}
+.notificationsBottom svg {
+  margin-left: 20px;
+  transform-origin: 50% 50%;
+}
+.notificationsBottom:hover {
+  color: #0081FF;
+}
+
+.notificationsExpanded {
+  max-height: 100%;
+}
+
+.notificationsExpandedIcon {
+  transform: rotate(180deg)
+}
+
+.ads {
+  display: block;
+  flex-basis: 100%;
+}
+
+.ads div {
+  padding: 24px 30px;
+  background: #F2F2F7;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #3D424C;
+  margin-bottom: 20px;
+}
+
+.ads a {
+  color: inherit;
+  text-decoration: underline;
+}
+.ads a:hover {
+  color: #0081FF;
+}

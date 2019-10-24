@@ -1,0 +1,136 @@
+@import "styles/animations.css";
+
+.form {
+  margin: 0 auto;
+}
+.selects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.yearSelect {
+  width: 105px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-right: 0 !important;
+}
+
+.monthSelect {
+  width: 146px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.line {
+  height: 2px;
+  border-radius: 1px;
+  background: #1477F8;
+  width: 6px;
+  margin: 0 32px;
+}
+
+.bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.button {
+  width: 240px;
+  margin-left: 60px;
+}
+
+.inner {
+  margin-top: 33px;
+  margin-bottom: 0 !important;
+}
+
+.result {
+  width: 920px;
+  margin: 0 auto;
+}
+
+.year {
+  width: 77px;
+}
+
+.month {
+  width: 127px;
+}
+
+.creditStart {
+  width: 124px;
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 13px;
+  color: #A1A6B2;
+  margin-top: 8px;
+}
+
+.total {
+  width: 137px;
+}
+
+.payed {
+  width: 142px;
+}
+
+.creditEnd {
+  width: 175px;
+}
+
+.docs span {
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: underline;
+  color: #A1A6B2;
+  cursor: pointer;
+}
+
+.docs span:hover {
+  color: #FF8742;
+}
+
+.head {
+  font-weight: 500;
+  font-size: 13px;
+  color: #8A8E99;
+  display: flex;
+  align-items: center;
+  line-height: 16px;
+  padding: 24px 30px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D424D;
+  padding: 24px 30px;
+  border-radius: 20px;
+  background: #F2F2F7;
+  margin-bottom: 10px;
+}
+.row:nth-of-type(odd) {
+  background: white;
+}
+
+
+.spinner {
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  display: flex;
+  margin: 100px auto;
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  padding: 24px 0;
+  color: #A1A6B2;
+}

@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 197px;
+}
+
+.forgetPassword {
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
+
+.forgetPassword:hover {
+  color: #0081FF;
+}
+
+.icon {
+  padding-top: 132px;
+}

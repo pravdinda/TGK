@@ -1,0 +1,6 @@
+@import "styles/vars.css";
+
+.container {
+  background: white;
+  height: 160px;
+}

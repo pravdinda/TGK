@@ -1,0 +1,46 @@
+.container {
+  width: 460px;
+  padding: 50px;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.top {
+  display: flex;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  color: #3D424D;
+}
+
+.icon {
+  margin-right: 19px;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #737780;
+  margin-top: 25px;
+}
+
+.link {
+  display: block;
+  border: 1px solid #E1E6F0;
+  box-sizing: border-box;
+  border-radius: 18px;
+  cursor: pointer;
+  color: #FF611A;
+  font-size: 15px;
+  text-align: center;
+  height: 60px;
+  text-decoration: none;
+  padding: 20px 0;
+  margin-top: 35px;
+}

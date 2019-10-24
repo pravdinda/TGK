@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+} 
+
+.container > * {
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 0 !important;
+  margin-left: 10px;
+}
+
+.container > *:first-child {
+  margin-left: 0 !important;
+}

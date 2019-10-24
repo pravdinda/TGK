@@ -1,0 +1,179 @@
+@import "styles/animations.css";
+
+.overlay {
+  background: rgba(46, 66, 93);
+  opacity: 0.2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 301;
+  transition: opacity 0.2s linear;
+}
+
+.window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 610px;
+  background: white;
+  box-sizing: border-box;
+  z-index: 301;
+  padding: 34px 0 40px;
+  transition: transform 0.2s linear;
+}
+
+.hidden .window {
+  transform: translateX(610px);
+}
+
+.hidden .overlay {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.close {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: #B8BECC;
+  cursor: pointer;
+}
+
+.close:hover {
+  color: #0081FF;
+}
+
+.top {
+  padding: 80px 40px 0;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+
+  color: #3D424C;
+
+}
+
+.intro {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #737780;
+  margin-top: 26px;
+}
+
+.form {
+  margin-top: 20px;
+}
+
+.bottom {
+
+}
+
+
+.spinner {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.spinner svg {
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  margin-left: 8px;
+}
+
+.table {
+  padding: 0 40px;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  color: #8A8E99;
+  width: 530px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.result {
+  overflow: auto;
+  max-height: calc(100vh - 486px);
+  padding: 20px 0;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  color: #242424;
+  width: 530px;
+  padding: 17px 20px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 13px;
+  background: #FAFBFC;
+  border-radius: 20px;
+}
+.row:not(:first-child) {
+  margin-top: 10px;
+}
+
+.date {
+  flex-basis: 115px;
+}
+
+.value {
+  flex-basis: 144px;
+}
+
+.source {
+  flex-basis: 231px;
+}
+
+.button {
+
+}
+
+.selects {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.yearSelect {
+  width: 105px;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-right: 0 !important;
+}
+
+.monthSelect {
+  width: 146px;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.line {
+  height: 2px;
+  border-radius: 1px;
+  background: #1477F8;
+  width: 6px;
+  margin: 0 12px;
+}
+
+.empty {
+  text-align: center;
+  font-size: 18px;
+  padding: 24px 0;
+  color: #A1A6B2;
+}

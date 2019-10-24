@@ -1,0 +1,68 @@
+@import "styles/animations.css";
+
+.button {
+  background: linear-gradient(9.44deg, #FF9B4C -11.02%, #FF7439 107.77%);
+  color: white;
+  border: none;
+  height: 60px;
+  border-radius: 18px;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  /* box-shadow: 0px 4px 20px rgba(255, 116, 57, 0.2); */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button svg {
+  width: 24px;
+  height: 24px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  color: white;
+  margin-left: 8px;
+}
+
+.button:hover {
+  background: #FF5E1A;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active {
+  background: #FF4C00;
+}
+
+.button:disabled {
+  background: #E1E4EB;
+  color: #A1A6B3;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.outlined {
+  border: 1px solid #E1E6F0;
+  background: transparent;
+  color: #FF7439;
+  box-shadow: none;
+}
+
+.outlined:hover {
+  color: #FF5E1A;
+  border-color: #FF5E1A;
+  background: transparent;
+}
+
+.outlined:active {
+  color: #FF4C00;
+  border-color: #FF4C00;
+  background: transparent;
+}
+

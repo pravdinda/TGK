@@ -1,0 +1,144 @@
+.container {
+  width: 360px;
+  background: white;
+  padding: 64px 70px 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.logo {
+  width: 94px;
+}
+
+.account {
+  font-weight: 600;
+  margin-top: 88px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 19px;
+  color: #3D424D;
+  margin-bottom: 36px;
+}
+
+.rows {
+  
+}
+
+.row {
+  margin-top: 20px;
+}
+
+.label {
+  font-size: 13px;
+  color: #A1A6B2;
+}
+
+.value {
+  font-size: 19px;
+  color: #242424;
+  margin-top: 8px;
+}
+
+.total {
+  padding: 26px 0;
+  border-top: 1px solid #E1E2E5;
+  margin-top: 28px;
+}
+
+.totalLabel {
+  font-size: 13px;
+  color: #A1A6B2;
+}
+
+.totalValue {
+  font-size: 19px;
+  color: #1C5B8E;
+  margin-top: 6px;
+}
+
+.button {
+  width: 220px;
+}
+
+.links {
+  margin-top: 100px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #A1A6B3;
+  padding: 8px 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #0081FF;
+}
+
+.link span {
+  width: 20px;
+  text-align: center;
+  margin-right: 18px;
+}
+
+.info {
+  color: #FF7439;
+}
+
+@media  screen and (max-height: 950px) {
+  .container {
+    padding: 44px 70px 0;
+  }
+  .links {
+    margin-top: 50px;
+  }
+  .account {
+    margin-top: 50px;
+  }
+  .value {
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  .total {
+    padding: 16px 0;
+    
+    margin-top: 18px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .row {
+    margin-top: 12px;
+  }
+}
+
+
+@media  screen and (max-height: 900px) {
+  .container {
+    padding: 34px 70px 0;
+  }
+  .links {
+    margin-top: 30px;
+  }
+  .account {
+    margin-top: 30px;
+  }
+}
+
+@media  screen and (max-height: 700px) {
+  .links {
+    margin-top: 10px;
+  }
+  .account {
+    margin-top: 10px;
+  }
+}

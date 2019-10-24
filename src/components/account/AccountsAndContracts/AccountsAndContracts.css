@@ -1,0 +1,120 @@
+@import "styles/animations.css";
+
+.container {
+  padding: 60px 0;
+}
+
+.list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.column {
+  width: 520px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 27px;
+  color: #3D424C;
+  height: 44px;
+}
+
+.title svg {
+  margin-right: 20px;
+}
+
+.org {
+  font-weight: 600;
+  font-size: 17px;
+  color: #A1A6B2;
+  margin-top: 27px;
+  line-height: 22px;
+}
+
+.rows {
+  margin-top: 17px;
+}
+
+.row:not(:first-child) {
+  margin-top: 20px;
+}
+
+.actions {
+  border-top: 1px solid #E1E6F0;
+  padding: 40px 0;
+  margin-top: 40px;
+}
+
+.button {
+  padding-left: 70px !important;
+  padding-right: 70px !important;
+}
+
+.spinner {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.spinner svg {
+  width: 32px;
+  height: 32px;
+  animation: rotate 1s linear infinite;
+  transform-origin: 50% 50%;
+  margin-left: 8px;
+}
+
+.empty {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.emptyInfo {
+  width: 350px;
+  margin-left: 130px;
+  padding-top: 60px;
+}
+
+.emptyTitle {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 27px;
+  color: #3D424C;
+}
+
+.emptyActions {
+  margin-top: 60px;
+}
+
+.emptyActions button:first-child{
+  margin-bottom: 20px;
+}
+
+.emptyActions button:last-child {
+  margin-top: 80px;
+}
+
+.item:not(:first-child) {
+  margin-top: 20px;
+}
+
+.company:not(:first-child) {
+  margin-top: 38px;
+}
+
+.popupTitle {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 25px;
+  color: #3D424D;
+  margin-bottom: 16px;
+}
+
+.popupTitle span {
+  color: #A1A6B2;
+}

@@ -1,0 +1,105 @@
+.container {
+  border: 1px solid #E1E4EB;
+  height: 60px;
+  position: relative;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 14px;
+  font-size: 15px;
+  color: #3D424D;
+}
+
+.value {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  line-height: 58px;
+  padding: 0 20px;
+}
+
+.expanded > .value svg {
+  transform: scaleY(-1);
+  transform-origin: 50% 50%;
+}
+
+.value svg {
+  color: #B8BECC;
+  position: absolute;
+  right: 20px;
+  top: 26px;
+  cursor: pointer;
+}
+
+.value:hover > svg {
+  color: #0081FF;
+}
+
+
+.menu {
+  position: absolute;
+  background: white;
+  top: 49px;
+  border: 1px solid #E1E4EB;
+  border-top: 0;
+  left: -1px;
+  right: -1px;
+  border-radius: 0 0 14px 14px;
+  padding: 6px 20px;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.line {
+  height: 8px;
+  left: 14px;
+  right: 14px;
+  top: 0;
+  border-bottom: 1px solid #E1E4EB;
+  position: absolute;
+}
+
+.list {
+  max-height: 210px;
+  overflow: auto;
+  margin-top: 6px;
+  
+}
+.list::-webkit-scrollbar {
+  width: 4px;
+  background-color: white;
+}
+
+.list::-webkit-scrollbar-thumb {
+	background-color: #E1E4EB;
+	border: 2px solid #E1E4EB;
+}
+
+.options {
+  padding: 10px 0;
+}
+
+.option {
+  color: #A1A6B3;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.option:first-child {
+  margin-top: 0;
+}
+
+.option:hover {
+  color: #3D424D;
+}
+
+.selected {
+  color: #3D424D;
+  font-weight: bold;
+}
+
+.fullWidth {
+  width: 100%;
+}

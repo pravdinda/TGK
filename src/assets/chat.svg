@@ -1,0 +1,5 @@
+<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 0H17C18.6569 0 20 1.34315 20 3V13C20 14.6569 18.6569 16 17 16H6.55C6.35699 15.9926 6.16597 16.0412 6 16.14L1.51 18.86C1.35564 18.9516 1.17948 18.9999 1 19C0.828212 18.9995 0.659456 18.9547 0.51 18.87C0.195513 18.6932 0.000621694 18.3608 0 18V3C0 1.34315 1.34315 0 3 0ZM17 14C17.5523 14 18 13.5523 18 13V3C18 2.44772 17.5523 2 17 2H3C2.44772 2 2 2.44772 2 3V16.23L5 14.43C5.46789 14.1482 6.00382 13.9996 6.55 14H17Z" fill="currentColor"/>
+<rect width="10" height="2" rx="1" transform="matrix(-1 0 0 1 15 5)" fill="currentColor"/>
+<rect width="5" height="2" rx="1" transform="matrix(-1 0 0 1 10 9)" fill="currentColor"/>
+</svg>

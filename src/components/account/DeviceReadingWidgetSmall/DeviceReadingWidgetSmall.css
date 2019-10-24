@@ -1,0 +1,88 @@
+.container {
+  width: 100%;
+  background: #FAFBFC;
+  border-radius: 20px;
+  padding: 35px 39px;
+  box-sizing: border-box;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type {
+  color: #FF350D;
+  display: flex;
+  align-items: center;
+}
+
+.type svg {
+  margin-right: 17px;
+}
+
+.type span {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;  
+}
+
+.number {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #1C5B8E;
+}
+
+.readings {
+  position: relative;
+  margin-top: 4px;
+}
+
+.reading {
+  width: 50%;
+  margin-top: 18px;
+}
+
+.readingLabel {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #A1A6B3;
+}
+
+.readingValue {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #3D424D;
+  margin-top: 8px;
+}
+
+.new {
+  background: transparent;
+  padding: 0;
+  width: 100%;
+  margin-top: 26px;
+}
+.group {
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.group > * {
+  width: 220px;
+}
+
+.time {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: #1C5B8E;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  padding: 12px 16px;
+}

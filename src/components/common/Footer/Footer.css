@@ -1,0 +1,35 @@
+@import "styles/vars.css";
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 27px 30px;
+  height: 106px;
+  box-sizing: border-box;
+}
+.copy {
+  font-weight: 500;
+  font-size: 13px;
+  color: #737780;
+}
+.info {
+  display: flex;
+  align-items: center;
+  color: #FF7439;
+  font-weight: 600;
+  font-size: 15px;
+  border: 1px solid #E1E4EB;
+  border-radius: 14px;
+  padding: 13px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.info:hover {
+  border-color: #FF7439;
+}
+
+.info svg {
+  margin-right: 8px;
+}

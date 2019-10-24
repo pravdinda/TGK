@@ -1,0 +1,20 @@
+.types {
+  display: flex;
+  align-items: center;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  color: #A1A6B3;
+  cursor: pointer;
+}
+
+.type:hover {
+  color: #2E2F33;
+}
+
+.selectedType {
+  color: #2E2F33;
+}

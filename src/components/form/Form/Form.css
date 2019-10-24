@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  background: white;
+  width: 460px;
+  border-radius: 20px;
+  padding: 45px 50px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.01);
+}
+
+.top {
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-size: 19px;
+  font-weight: 600;
+  color: #3D424D;
+  line-height: 25px;
+  flex-basis: 100%;
+}
+
+.icon {
+  margin-right: 20px;
+  flex-shrink: 0;
+}

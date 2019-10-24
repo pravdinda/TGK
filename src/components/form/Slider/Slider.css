@@ -1,0 +1,37 @@
+.container {
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.switcher {
+  width: 30px;
+  height: 20px;
+  border-radius: 10px;
+  background: #D5D5DE;
+  padding: 3px 3px;
+  box-sizing: border-box;
+  
+}
+
+.switcher div {
+  background: #FAFBFC;
+  border-radius: 8px;
+  width: 14px;
+  height: 14px;
+  transition: transform .2s;
+}
+
+.active div {
+  transform: translateX(10px);
+}
+
+.checkbox {
+  display: none;
+}
+
+.label {
+  margin-left: 12px;
+}
