@@ -103,3 +103,20 @@
 .fullWidth {
   width: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  font-size: 13px;
+	  height: 36px;
+	  
+	  border-radius: 12px;
+	}
+	.value {
+	  line-height: 34px;
+	  padding: 0 14px;
+	}
+	.value svg {
+	  right: 14px;
+	  top: 15px;
+	}
+}

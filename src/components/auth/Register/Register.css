@@ -10,3 +10,9 @@
   margin: 0 auto 30px;
   width: 460px;
 }
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  padding: 32px 0;
+	}
+}

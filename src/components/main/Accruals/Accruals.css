@@ -1,7 +1,7 @@
 @import "styles/animations.css";
 
 .form {
-  margin: 0 auto;
+  /*margin: 0 auto;*/
 }
 .selects {
   display: flex;
@@ -46,7 +46,7 @@
 
 .result {
   width: 920px;
-  margin: 0 auto;
+ /* margin: 0 auto;*/
 }
 
 .year {
@@ -133,4 +133,78 @@
   font-size: 18px;
   padding: 24px 0;
   color: #A1A6B2;
+}
+
+
+@media screen and (max-width: 1280px) {
+	.form {
+	  width: 678px!important;
+	}
+	.result {
+	  width: 100%;
+	 /* margin: 0 auto;*/
+	}
+	.head {
+	  font-size: 12px;
+	  padding: 16px 14px;
+	}
+	.row {
+	  font-size: 12px;
+	  line-height: 18px;
+	  padding: 16px 14px;
+	}
+	.year {
+	  width: 47px;
+	}
+	
+	.month {
+	  width: 77px;
+	}
+	
+	.creditStart {
+	  width: 124px;
+	}
+	
+	.desc {
+	  font-weight: 500;
+	  font-size: 13px;
+	  color: #A1A6B2;
+	  margin-top: 8px;
+	}
+	
+	.total {
+	  width: 110px;
+	}
+	
+	.payed {
+	  width: 110px;
+	}
+	
+	.creditEnd {
+	  width: 110px;
+	}
+	
+	.docs span {
+	  font-size: 12px;
+	}
+	.inner {
+	  margin-top: 22px;
+	  margin-bottom: 0 !important;
+	}
+	.button {
+	  width: 120px;
+	  margin-left: 32px;
+	  height: 36px;
+	  line-height: 36px;
+	}
+	.yearSelect {
+	  width: 78px;
+	}
+	
+	.monthSelect {
+	  width: 122px;
+	}
+	.line {
+	  margin: 0 18px;
+	}
 }

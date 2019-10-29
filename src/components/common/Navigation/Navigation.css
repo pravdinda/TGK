@@ -25,3 +25,16 @@
   color: #3D424D;
   border-color: #FF7439;
 }
+
+@media screen and (max-width: 1280px) {
+	.link {
+	  padding-bottom: 12px;
+	}
+	.link {
+	  font-size: 15px;
+	}
+	.elem {
+	  margin: 0 18px;
+	  padding-bottom: 15px
+	}
+}

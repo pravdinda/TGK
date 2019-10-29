@@ -33,3 +33,11 @@
 .info svg {
   margin-right: 8px;
 }
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  padding: 32px;
+	  /*height: 72px;*/
+	}
+	
+}

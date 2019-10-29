@@ -16,3 +16,15 @@
 .icon {
   padding-top: 132px;
 }
+
+@media screen and (max-width: 1280px) {
+	.icon {
+	  padding-top: 96px;
+	}
+	.container {
+	  padding: 32px 32px 0;
+	}
+	.icon > svg{
+		width: 440px;
+	}
+}

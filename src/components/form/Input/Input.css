@@ -100,3 +100,9 @@
 .error {
   border-color: #FF1818;
 }
+
+@media screen and (max-width: 1280px) {
+	.input {
+		height: 42px;
+	}
+}

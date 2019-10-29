@@ -142,3 +142,12 @@
     margin-top: 10px;
   }
 }
+
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  width: 284px;
+	  background: white;
+	  padding: 32px 32px 0;
+	}
+}

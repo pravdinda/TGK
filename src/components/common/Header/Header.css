@@ -4,3 +4,9 @@
   background: white;
   height: 160px;
 }
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  height: 120px;
+	}
+}

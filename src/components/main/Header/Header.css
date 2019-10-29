@@ -31,3 +31,16 @@
   color: #3D424D;
   border-color: #FF7439;
 }
+
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  height: 120px;
+	}
+	.link {
+	  font-size: 15px;
+	  line-height: 18px;
+	  margin-left: 24px;
+	}
+}
+

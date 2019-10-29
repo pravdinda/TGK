@@ -3,7 +3,7 @@
 .container {
   display: flex;
   width: 930px;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   flex-wrap: wrap;
 }
 
@@ -212,3 +212,30 @@
 .ads a:hover {
   color: #0081FF;
 }
+
+
+@media screen and (max-width: 1280px) {
+	.container {
+	  width: 678px;
+	}
+	
+	.left {
+	  position: relative;
+	  width: 268px;
+	}
+	.right {
+	  position: relative;
+	  width: 388px;
+	}
+	.value {
+	  font-size: 13px;
+	  line-height: 16px;
+	}
+	.form {
+		padding: 18px 18px 18px;
+		border-radius: 12px;
+	}
+	
+}
+
+

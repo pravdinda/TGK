@@ -122,3 +122,15 @@
 .menu div:hover {
   color: #0081FF;
 }
+
+@media screen and (max-width: 1280px) {
+	.info {
+	  padding: 24px 28px;
+	}
+	.icon {
+	  margin-right: 28px;
+	}
+	.menu {
+	  z-index: 100;
+	}
+}
