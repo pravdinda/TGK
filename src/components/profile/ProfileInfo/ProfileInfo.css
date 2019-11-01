@@ -104,3 +104,10 @@
   margin-top: -24px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 1023px) {
+	.container {
+	  margin: 58px auto;
+	  width: 420px;
+	}
+}

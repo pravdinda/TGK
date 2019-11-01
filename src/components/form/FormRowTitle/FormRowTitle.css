@@ -4,3 +4,10 @@
   font-weight: 600;
   color: #A1A6B3;
 }
+
+@media screen and (max-width: 1023px) {
+	.container {
+	  margin-bottom: 6px;
+	  font-size: 11px;
+	}
+}

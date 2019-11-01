@@ -93,3 +93,9 @@
 .resend span:hover {
   color: #0081FF;
 }
+
+@media screen and (max-width: 1023px) {
+	.container {
+	  margin: 32px auto;
+	}
+}

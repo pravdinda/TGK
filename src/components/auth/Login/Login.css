@@ -28,3 +28,8 @@
 		width: 440px;
 	}
 }
+@media screen and (max-width: 1023px) {
+	.icon > svg{
+		width: 380px;
+	}
+}

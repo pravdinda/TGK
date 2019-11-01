@@ -177,3 +177,39 @@
   padding: 24px 0;
   color: #A1A6B2;
 }
+@media screen and (max-width: 1023px) {
+	.window {
+		padding: 32px 0 24px;
+	}
+	.close {
+	  top: 12px;
+	  left: 16px;
+	}
+	.popupText {
+	  margin: 18px 0 24px;
+	}
+	.form {
+	  height: 120px;
+	}
+	.settings {
+	  display: flex;
+	  align-items: center;
+	  height: 48px;
+	  padding: 12px 26px;
+	  border-radius: 14px;
+	}
+	.settingsIcon {
+	  width: 28px;
+	}
+	.settingsWrapper {
+	  height: 160px;
+	}
+	.row {
+	  padding: 11px 12px;
+	}
+	.top {
+	  padding: 18px 40px 0;
+	  height: 328px;
+	  box-sizing: border-box;
+	}
+}

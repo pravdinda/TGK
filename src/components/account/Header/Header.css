@@ -49,14 +49,14 @@
 
 @media  screen and (max-height: 900px) {
   .inner {
-    height: 120px;
+    height: 97px;
   }
   
 }
 @media screen and (max-width: 1280px) {
 	.inner {
 	  padding: 0 48px;
-	  height: 120px;
+	  height: 97px;
 	  width: 100vw;
 	}
 }

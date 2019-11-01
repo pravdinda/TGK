@@ -208,3 +208,28 @@
 	  margin: 0 18px;
 	}
 }
+@media screen and (max-width: 1023px) {
+	.form {
+	  width: 628px!important;
+	}
+	.head {
+	  font-size: 11px;
+	  padding: 14px 12px;
+	}
+	.row {
+	  font-size: 11px;
+	  line-height: 14px;
+	  padding: 14px 12px;
+	}
+	.total {
+	  width: 90px;
+	}
+	
+	.payed {
+	  width: 90px;
+	}
+	
+	.creditEnd {
+	  width: 90px;
+	}
+}

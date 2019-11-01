@@ -238,4 +238,29 @@
 	
 }
 
+@media screen and (max-width: 1023px) {
+	.container {
+	  width: 628px;
+	}
+	
+	.left {
+	  position: relative;
+	  width: 220px;
+	}
+	.right {
+	  position: relative;
+	  width: 388px;
+	}
+	.value {
+	  font-size: 11px;
+	  line-height: 13px;
+	}
+	.form {
+		padding: 18px 18px 18px;
+		border-radius: 12px;
+	}
+	.form > div:first-child {
+	  margin-bottom: 16px;
+	}
+}
 
