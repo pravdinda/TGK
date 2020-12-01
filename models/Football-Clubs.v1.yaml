@@ -1,0 +1,5 @@
+title: Football Clubs
+type: object
+properties:
+  id:
+    type: string
